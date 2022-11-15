@@ -1,0 +1,13 @@
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/testData/GenerateUserData.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/RegistrationPage.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/LoginPage.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/containers/HeaderContainer.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/api/dto/DtoUserResponse.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/PersonalAreaPage.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/api/requests/UserRequest.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/api/dto/DtoUser.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/ForgotPasswordPage.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/testData/User.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/containers/ConstructorContainer.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/HomePage.java
+/Users/syuzanna/Documents/Diplom_Syuzanna_Kovalskaya_11/QA-java-diplom-3/src/main/java/burgers/pages/BasePage.java
