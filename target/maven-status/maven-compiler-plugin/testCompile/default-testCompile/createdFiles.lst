@@ -1,0 +1,5 @@
+burgersTests/BaseTest.class
+burgersTests/HomePageTest.class
+burgersTests/RegistrationTest.class
+burgersTests/LoginUserTest.class
+burgersTests/ConstructorTest.class

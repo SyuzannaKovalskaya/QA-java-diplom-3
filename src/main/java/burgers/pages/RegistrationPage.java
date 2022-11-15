@@ -14,6 +14,9 @@ public class RegistrationPage extends BasePage {
     private By emailInput = By.xpath(".//label[text()='Email']/../input");
     private By passwordInput = By.xpath(".//label[text()='Пароль']/../input");
     private By registrationButton = By.xpath(".//button[text()='Зарегистрироваться']");
+    private By inputButton = By.xpath(".//a[@href = '/login']");
+    private By errorMessage = By.xpath(".//p[text()='Некорректный пароль']");
+
 
     public void setNameInput(String text) {
         getNameInput().sendKeys(text);
@@ -29,6 +32,10 @@ public class RegistrationPage extends BasePage {
 
     public WebElement getNameInput() {
         return driver.findElement(nameInput);
+    }
+
+    public WebElement getErrorMessage() {
+        return driver.findElement(errorMessage);
     }
 
     public WebElement getEmailInput() {
@@ -51,5 +58,12 @@ public class RegistrationPage extends BasePage {
         return clickRegistrationButton();
     }
 
+    public WebElement getInputButton() {
+        return driver.findElement(inputButton);
+    }
 
+    public LoginPage clickInputButton() {
+        getInputButton().click();
+        return new LoginPage(driver);
+    }
 }

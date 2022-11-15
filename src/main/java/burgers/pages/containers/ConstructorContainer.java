@@ -17,7 +17,6 @@ public class ConstructorContainer {
     private By toppingsHeader = By.xpath(".//h2[text() = 'Начинки']");
     private By bunsHeader = By.xpath(".//h2[text() = 'Булки']");
     private By sauceHeader = By.xpath(".//h2[text() = 'Соусы']");
-    private By toppingsHeaderActive = By.xpath(".//h2[text() = 'Начинки']");
 
     public void clickSauce() {
         getSauce().click();
@@ -46,9 +45,11 @@ public class ConstructorContainer {
     public WebElement getToppingsHeader() {
         return driver.findElement(toppingsHeader);
     }
+
     public WebElement getBunsHeader() {
         return driver.findElement(bunsHeader);
     }
+
     public WebElement getSauceHeader() {
         return driver.findElement(sauceHeader);
     }

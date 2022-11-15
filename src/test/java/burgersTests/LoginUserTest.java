@@ -64,4 +64,23 @@ public class LoginUserTest extends BaseTest {
         homePage = loginPage.loginUser(user.email, user.password);
         Assert.assertTrue(homePage.getCreateOrderButton().isDisplayed());
     }
+
+    @Test
+    public void loginWithRegistrationPageTest() {
+        HomePage homePage = new HomePage(driver);
+        RegistrationPage registrationPage = homePage.clickSignIn().clickRegistration();
+
+        User user = new User("Alex", GenerateUserData.getRandomEmail(), "123456");
+        this.user = user;
+        LoginPage loginPage = registrationPage.registrationUser(user.name, user.email, user.password);
+        Assert.assertTrue(loginPage.getInputButton().isDisplayed());
+
+        registrationPage = loginPage.clickRegistration();
+        loginPage = registrationPage.clickInputButton();
+        homePage = loginPage.loginUser(user.email, user.password);
+        Assert.assertTrue(homePage.getCreateOrderButton().isDisplayed());
+
+    }
 }
+
+

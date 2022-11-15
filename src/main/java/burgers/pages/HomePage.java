@@ -19,12 +19,9 @@ public class HomePage extends BasePage {
     private By createOrderButton = By.xpath(".//button[text()='Оформить заказ']");
 
 
-
-
     public WebElement getCreateOrderButton() {
         return driver.findElement(createOrderButton);
     }
-
 
 
     public LoginPage clickSignIn() {

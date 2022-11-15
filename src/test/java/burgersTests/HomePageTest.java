@@ -5,7 +5,7 @@ import burgers.pages.PersonalAreaPage;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class HomePageTest extends BaseTest{
+public class HomePageTest extends BaseTest {
     @Test
     public void homePageLogoTest() {
         HomePage homePage = new HomePage(driver);

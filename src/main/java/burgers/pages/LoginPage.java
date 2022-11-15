@@ -6,11 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
 
-
     public LoginPage(WebDriver driver) {
         super(driver);
     }
-
 
     private By email = By.xpath(".//label[text()='Email']/../input");
     private By password = By.xpath(".//label[text()='Пароль']/../input");

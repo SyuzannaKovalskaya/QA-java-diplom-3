@@ -1,0 +1,13 @@
+burgers/testData/User.class
+burgers/pages/containers/ConstructorContainer.class
+burgers/testData/GenerateUserData.class
+burgers/pages/ForgotPasswordPage.class
+burgers/pages/PersonalAreaPage.class
+burgers/api/dto/DtoUser.class
+burgers/pages/LoginPage.class
+burgers/pages/RegistrationPage.class
+burgers/pages/BasePage.class
+burgers/pages/containers/HeaderContainer.class
+burgers/api/requests/UserRequest.class
+burgers/pages/HomePage.class
+burgers/api/dto/DtoUserResponse.class

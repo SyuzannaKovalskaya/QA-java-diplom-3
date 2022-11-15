@@ -15,13 +15,10 @@ public class ConstructorTest extends BaseTest {
         homePage.constructorContainer.clickToppings();
         homePage.constructorContainer.clickSauce();
         homePage.constructorContainer.clickBuns();
-//        Thread.sleep(3000);
-//        System.out.println(homePage.constructorContainer.getToppings().getCssValue("box-shadow"));
-       // Assert.assertEquals("", homePage.constructorContainer.getToppings());
     }
 
 }
-// Assert.assertTrue(homePage.constructorContainer.getToppingsHeader();
+
 
 
 

@@ -35,4 +35,14 @@ public class RegistrationTest extends BaseTest {
 
     }
 
+    @Test
+    public void registrationWithNotCorrectPasswordTest() {
+        HomePage homePage = new HomePage(driver);
+        RegistrationPage registrationPage = homePage.clickSignIn().clickRegistration();
+
+        User user = new User("Alex", GenerateUserData.getRandomEmail(), "12345");
+
+        registrationPage.registrationUser(user.name, user.email, user.password);
+        Assert.assertTrue(registrationPage.getErrorMessage().isDisplayed());
+    }
 }
